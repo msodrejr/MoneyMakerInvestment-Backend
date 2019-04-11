@@ -8,4 +8,5 @@ import com.moneymakerinvestment.domain.Cliente;
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
 
+	public Cliente findByEmail(String email);
 }
