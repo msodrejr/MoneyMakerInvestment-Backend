@@ -1,4 +1,4 @@
-package com.moneymakerinvestment.domain.services.exceptions;
+package com.moneymakerinvestment.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException{
 	private static final long serialVersionUID = 1L;
